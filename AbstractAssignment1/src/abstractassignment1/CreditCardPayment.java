@@ -3,7 +3,7 @@
 
 package abstractassignment1;
 
-public class CreditCardPayment  extends Payment{
+public class CreditCardPayment extends Payment {
     private static int counter=1000;
 	public CreditCardPayment(int customerId) {
 		super(customerId);
@@ -33,5 +33,6 @@ public class CreditCardPayment  extends Payment{
 			return amount;
 		}
 	}
-    //Implement your code here
+	
+    
 }

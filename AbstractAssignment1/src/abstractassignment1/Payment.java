@@ -4,8 +4,7 @@
 package abstractassignment1;
 
 public abstract class Payment {
-    //Implement your code here
-	private int customerId;
+    private int customerId;
     protected String paymentId;
     protected double serviceTaxPercentage;
 	public Payment(int customerId) {
@@ -34,4 +33,6 @@ public abstract class Payment {
 		this.serviceTaxPercentage = serviceTaxPercentage;
 	}
     public abstract double payBill(double amount);
+    
+    
 }

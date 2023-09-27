@@ -5,9 +5,8 @@ package exceptionassignment1;
 
 public class InvalidTripPackageException extends Exception {
 
-	public InvalidTripPackageException(String message) {
-		super(message);
-		// TODO Auto-generated constructor stub
+	public InvalidTripPackageException(String mssg) {
+		super(mssg);
 	}
-
+	
 }

@@ -4,6 +4,9 @@
 package encapsulationassignment2;
 
 public class MovieTicket {
+	
+	//Implement your code here 
+	
 	private int movieId;
 	private int noOfSeats;
 	private double costPerTicket;

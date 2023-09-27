@@ -5,9 +5,8 @@ package exceptionassignment1;
 
 public class InvalidDestinationException extends Exception {
 
-	public InvalidDestinationException(String message) {
-		super(message);
-		// TODO Auto-generated constructor stub
+	public InvalidDestinationException(String mssg) {
+		super(mssg);
 	}
 
 }

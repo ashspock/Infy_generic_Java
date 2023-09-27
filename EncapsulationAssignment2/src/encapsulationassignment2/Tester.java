@@ -6,7 +6,7 @@ package encapsulationassignment2;
 public class Tester {
 	
 	public static void main(String[] args) {
-        MovieTicket movieTicket = new MovieTicket(112, 3);
+        MovieTicket movieTicket = new MovieTicket(111,1);
         double amount = movieTicket.calculateTotalAmount();
         if (amount==0)
             System.out.println("Sorry! Please enter valid movie Id and number of seats");

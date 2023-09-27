@@ -4,7 +4,7 @@
 package abstractassignment1;
 
 public class DebitCardPayment extends Payment{
-    private static int counter=1000;
+	private static int counter=1000;
 	private double discountPercentage;
 	public DebitCardPayment(int customerId) {
 		super(customerId);
@@ -43,5 +43,6 @@ public class DebitCardPayment extends Payment{
 			return amount;
 		}
 	}
-    //Implement your code here
+
+	
 }
