@@ -18,7 +18,7 @@ public class Tester {
 		}
 
 		System.out.println();
-		TeamEvent teamEvent = new TeamEvent("Acting", "Serena", 5, 1);
+		TeamEvent teamEvent = new TeamEvent("Acting", "Serena", 10, 1);
 		teamEvent.registerEvent();
 		if (teamEvent.getRegistrationFee() != 0) {
 			System.out.println("Thank You " + teamEvent.getParticipantName()

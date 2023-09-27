@@ -3,13 +3,14 @@
 
 package methodoverridingassignment1;
 
-public class OfficeStaff extends Faculty{
-    private String designation;
+public class OfficeStaff extends Faculty {
+	
+	private String designation;
 	public OfficeStaff(String name, float basicSalary, String designation) {
 		super(name, basicSalary);
 		this.designation = designation;
 	}
-    public double calculateSalary(){
+	public double calculateSalary(){
 		double salary=0;
 		if(this.designation.equals("Accountant"))
 			salary= super.calculateSalary()+10000.0;
@@ -27,5 +28,4 @@ public class OfficeStaff extends Faculty{
 	public void setDesignation(String designation) {
 		this.designation = designation;
 	}
-	 //Implement your code here
 }

@@ -3,8 +3,8 @@
 
 package methodoverridingassignment1;
 
-public class Teacher  extends Faculty{
-    private String qualification;
+public class Teacher extends Faculty {
+	private String qualification;
 	public Teacher(String name, float basicSalary, String qualification) {
 		super(name, basicSalary);
 		this.qualification = qualification;
@@ -31,5 +31,4 @@ public class Teacher  extends Faculty{
 	public void setQualification(String qualification) {
 		this.qualification = qualification;
 	}
-	 //Implement your code here
 }

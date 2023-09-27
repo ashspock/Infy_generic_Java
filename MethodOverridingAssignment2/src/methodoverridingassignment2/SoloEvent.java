@@ -4,9 +4,8 @@
 package methodoverridingassignment2;
 
 public class SoloEvent extends Event {
-	
+	//Implement your code here
 	private int participantNo;
-	
 	public SoloEvent(String eventName, String participantName, int participantNo) {
 		super(eventName, participantName);
 		this.participantNo = participantNo;

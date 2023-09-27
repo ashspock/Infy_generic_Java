@@ -5,6 +5,7 @@ package methodoverloadingassignment2;
 
 public class Triangle {
 	//Implement your code here
+	
 	private Point point1;
 	private Point point2;
 	private Point point3;

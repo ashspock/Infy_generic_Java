@@ -3,6 +3,8 @@
 
 package methodoverloadingassignment2;
 
+//import methodoverloadingexercise1.Point;
+
 public class Point {
 	
 	//Reuse the code of Method Overloading - Exercise 1 
@@ -40,10 +42,10 @@ public class Point {
     
     //Uncomment the below method after implementation before verifying 
     //DO NOT MODIFY THE METHOD
-    /*
+    
     public String toString(){
         return "Point\nxCoordinate: "+this.getxCoordinate()+"\nyCoordinate: "+this.getyCoordinate();
     }
-    */
+    
 
 }

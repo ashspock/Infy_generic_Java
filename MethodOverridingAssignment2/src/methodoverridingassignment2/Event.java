@@ -4,26 +4,40 @@
 package methodoverridingassignment2;
 
 public class Event {
+	//Implement your code here
 	private String eventName;
 	private String participantName;
 	private double registrationFee;
-	
 	public Event(String eventName, String participantName) {
+		super();
 		this.eventName = eventName;
 		this.participantName = participantName;
 	}
-	
 	public void registerEvent(){
-			if(eventName.equals("Singing"))
-				registrationFee=8.0;
-			else if(eventName.equals("Dancing"))
-				registrationFee=10.0;
-			else if(eventName.equals("DigitalArt"))
-				registrationFee=12.0;
-			else if(eventName.equals("Acting"))
-				registrationFee=15.0;
+		if(this instanceof SoloEvent){
+			if(this.eventName.equals("Singing"))
+				this.registrationFee=8.0;
+			else if(this.eventName.equals("Dancing"))
+				this.registrationFee=10.0;
+			else if(this.eventName.equals("DigitalArt"))
+				this.registrationFee=12.0;
+			else if(this.eventName.equals("Acting"))
+				this.registrationFee=15.0;
 			else
-				registrationFee=0.0;
+				this.registrationFee=0.0;
+		}
+		else if(this instanceof TeamEvent){
+			if(this.eventName.equals("Singing"))
+				this.registrationFee=4.0;
+			else if(this.eventName.equals("Dancing"))
+				this.registrationFee=6.0;
+			else if(this.eventName.equals("DigitalArt"))
+				this.registrationFee=8.0;
+			else if(this.eventName.equals("Acting"))
+				this.registrationFee=10.0;
+			else
+				this.registrationFee=0.0;
+		}
 	}
 		
 	public String getEventName() {
@@ -44,4 +58,6 @@ public class Event {
 	public void setRegistrationFee(double registrationFee) {
 			this.registrationFee = registrationFee;
 	}
+	
+	
 }
